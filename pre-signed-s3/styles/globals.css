@@ -69,3 +69,20 @@ a {
   .upload-button:hover {
     background-color: #0056b3;
   }
+  
+  .upload-message {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .error {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
