@@ -1,6 +1,5 @@
 import axios from "axios";
 import { ChangeEvent } from "react";
-import "./Upload.css";  // Import the CSS file
 
 async function uploadToS3(e: ChangeEvent<HTMLFormElement>) {
   const formData = new FormData(e.target);
